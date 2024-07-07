@@ -1,0 +1,44 @@
+@font-face {
+  font-family: myfont;
+  src: url(Angkola.otf);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: linear-gradient(to right, #eee, #ddd, #ccc, #bbb, #aaa, #999, #888, #777);
+  border-bottom: 1px solid #666;
+  padding: 20px 20px;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.text1 {
+  color: #006b38ff;
+}
+
+.text2 {
+  color: #343148ff;
+}
+
+.fortune-box {
+  padding: 20px 20px;
+  margin: 10px 0px;
+  border-left: 1px solid #333;
+}
+
+.fortune-text {
+  font-family: myfont;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
